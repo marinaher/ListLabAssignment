@@ -1,0 +1,6 @@
+C:\Users\reald\Documents\GitHub\devCodeCamp Projects\ListLabAssignment\ListLabAssignment\bin\Debug\ListLabAssignment.exe.config
+C:\Users\reald\Documents\GitHub\devCodeCamp Projects\ListLabAssignment\ListLabAssignment\obj\Debug\ListLabAssignment.csprojResolveAssemblyReference.cache
+C:\Users\reald\Documents\GitHub\devCodeCamp Projects\ListLabAssignment\ListLabAssignment\bin\Debug\ListLabAssignment.exe
+C:\Users\reald\Documents\GitHub\devCodeCamp Projects\ListLabAssignment\ListLabAssignment\bin\Debug\ListLabAssignment.pdb
+C:\Users\reald\Documents\GitHub\devCodeCamp Projects\ListLabAssignment\ListLabAssignment\obj\Debug\ListLabAssignment.exe
+C:\Users\reald\Documents\GitHub\devCodeCamp Projects\ListLabAssignment\ListLabAssignment\obj\Debug\ListLabAssignment.pdb
