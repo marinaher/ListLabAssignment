@@ -8,6 +8,8 @@ namespace ListLabAssignment
 {
     public class baseballStatisticNames
     {
+        internal static readonly int length;
+
         public baseballStatisticNames()
         {
             List<string> baseballStatistic = new List<string>();
@@ -17,11 +19,6 @@ namespace ListLabAssignment
             baseballStatistic.Add("fielding");
             baseballStatistic.Add("overall player value");
             baseballStatistic.Add("general");
-
-            foreach (string baseballStat in baseballStatistic)
-            {
-                Console.WriteLine(baseballStat);
-            }
         }
     }
 }
