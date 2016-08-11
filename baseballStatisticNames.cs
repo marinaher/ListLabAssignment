@@ -8,17 +8,14 @@ namespace ListLabAssignment
 {
     public class baseballStatisticNames
     {
-        internal static readonly int length;
+        List<string> baseballStatName = new List<string>() { "Games played", "Plate Apperances", "At Bat", "Runs Scored", "Hits", "Double Hit", "Triple Hit", "Home Run" };
+        List<int> statNumbers = new List<int>() { 113, 493, 426, 70, 112, 25, 0, 31 };
 
-        public baseballStatisticNames()
+        public void RunBaseballStats()
         {
-            List<string> baseballStatistic = new List<string>();
-            baseballStatistic.Add("batting");
-            baseballStatistic.Add("baserunning");
-            baseballStatistic.Add("pitching");
-            baseballStatistic.Add("fielding");
-            baseballStatistic.Add("overall player value");
-            baseballStatistic.Add("general");
+            var baseballStatNameAndstatNumbers = baseballStatName.Zip(statNumbers, (first, second) => first + ":    " + second);
+            foreach (var item in baseballStatNameAndstatNumbers)
+            Console.WriteLine(item);
         }
     }
 }
