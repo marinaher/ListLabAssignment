@@ -23,7 +23,7 @@ namespace ListLabAssignment
         }
         public void RunStatNumbers()
         {
-            Console.WriteLine("Statistics entered in for: ");
+            Console.WriteLine("\nStatistics entered in for: ");
             for (int i = 0; i < statNumbers.Count; i++)
             {
                 Console.WriteLine("- " + baseballStatNames[i] + " \t" + statNumbers[i] );
