@@ -11,7 +11,8 @@ namespace ListLabAssignment
         static void Main(string[] args)
         {
             baseballStatisticNames baseballStat = new baseballStatisticNames();
-            baseballStat.RunBaseballStats();
+            baseballStat.runBaseballStats();
+            baseballStat.RunStatNumbers();
             Console.ReadLine();
         }
     }

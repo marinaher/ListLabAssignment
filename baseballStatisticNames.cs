@@ -8,14 +8,25 @@ namespace ListLabAssignment
 {
     public class baseballStatisticNames
     {
-        List<string> baseballStatName = new List<string>() { "Games played", "Plate Apperances", "At Bat", "Runs Scored", "Hits", "Double Hit", "Triple Hit", "Home Run" };
-        List<int> statNumbers = new List<int>() { 113, 493, 426, 70, 112, 25, 0, 31 };
 
-        public void RunBaseballStats()
+        List<string> baseballStatNames = new List<string>() {"At Bat: ", "Runs: ", "Hits:", "Doubles: ", "Triples:", "Home runs:"};
+        List<double> statNumbers = new List<double>();
+
+        public void runBaseballStats()
         {
-            var baseballStatNameAndstatNumbers = baseballStatName.Zip(statNumbers, (first, second) => first + ":    " + second);
-            foreach (var item in baseballStatNameAndstatNumbers)
-            Console.WriteLine(item);
+            Console.WriteLine("Please enter in player statistics for: ");
+            for (int i = 0; i < baseballStatNames.Count; i++)
+            {
+                Console.WriteLine(baseballStatNames[i]);
+                statNumbers.Add(Convert.ToDouble(Console.ReadLine()));
+            }
+        }
+        public void RunStatNumbers()
+        {
+            for (int i = 0; i < statNumbers.Count; i++)
+            {
+                Console.WriteLine(baseballStatNames[i] + " " + statNumbers[i] );
+            }
         }
     }
 }
